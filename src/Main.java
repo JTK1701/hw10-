@@ -6,12 +6,12 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("Ф.И.О. сотрудника - " + fullName);
-
+        //Разделительный комментарий, чтобы избежать пустых строк и сделать Герману приятно))
         System.out.println(" ");
         System.out.println("2 задача");
         fullName = fullName.toUpperCase();
-        System.out.println("Дфнные ФИО сотрудника для заполнения отчета - " + fullName);
-
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName);
+        //Второй разделительный комментарий, потому что так не только Герману приятно, но и мне удобно)
         System.out.println(" ");
         System.out.println("3 задача");
         String fullName2 = "Семёнов Семён Семёнович";
